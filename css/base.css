@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  font-family: "Bitter", sans-serif;
+}
+
+body {
+  position: relative;
+  font-family: "Bitter", sans-serif;
+  font-family: "Rubik", sans-serif;
+  line-height: 1.6;
+}
+
+/* :root {
+  --background: #e7f5ff99;
+  --font-primary: #2c2158;
+  --font-primary-dark: #221c3a;
+  --white: #ffffff;
+  --aqua: #4ddcb8;
+  --aqua-light: #00f4b7;
+  --violet: #5c44bb;
+  --nav-font: rgb(5, 5, 5);
+} */
+
+:root {
+  --background: #f6e0ba7b;
+  --font-primary: #644619;
+  --font-primary-dark: #221c3a;
+  --white: #ffffff;
+  --aqua: #fda129;
+  --aqua-light: #ff9100;
+  --violet: #5c44bb;
+  --nav-font: rgb(5, 5, 5);
+}
+
+.main-container {
+  background-color: var(--background);
+  position: absolute;
+  left: 2rem;
+  top: 100rem;
+  height: 300rem;
+  transform: translateY(-100rem);
+  transition: transform 1.3s;
+  width: 96.6vw;
+}
+
+.sans-serif {
+  font-family: sans-serif;
+}
+
+.strong {
+  font-weight: 500;
+}
+
+.aqua {
+  color: var(--aqua);
+}

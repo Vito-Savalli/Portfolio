@@ -1,0 +1,73 @@
+.nav__item {
+  position: fixed;
+  text-decoration: none;
+  font-size: 1.7rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: var(--font-primary);
+  text-transform: uppercase;
+  font-family: sans-serif;
+  z-index: 50;
+  top: 4rem;
+}
+
+.nav__item-menu {
+  left: 5rem;
+}
+
+.nav__item-contact {
+  right: 7rem;
+}
+
+.nav__item-linkedin {
+  right: 6rem;
+  top: 28rem;
+  transition: all 0.8s ease-out;
+  transform: translateY(-100px);
+}
+
+.nav__item-twitter {
+  right: 6rem;
+  top: 36rem;
+  transition: all 0.8s ease-out;
+  transform: translateY(-10rem);
+}
+
+.nav__item-instagram {
+  right: 6rem;
+  top: 44rem;
+  transition: all 0.8s ease-out;
+  transform: translateY(-100px);
+}
+
+.nav__item-git {
+  right: 6rem;
+  top: 52rem;
+  transition: all 0.8s ease-out;
+  transform: translateY(-100px);
+}
+
+.nav-logo {
+  font-size: 3.6rem;
+  color: var(--font-primary);
+}
+
+.nav__item-btn {
+  top: 5rem;
+  right: 4rem;
+  font-size: 1rem;
+  padding: 1px 2px;
+}
+
+.nav__item:hover,
+.nav__item:active {
+  letter-spacing: 4px;
+  font-size: 2rem;
+  transition: all 0.2s;
+}
+
+.nav-logo:hover {
+  color: var(--aqua);
+  transition: all 0.3s;
+  font-size: 3.8rem;
+}

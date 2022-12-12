@@ -1,0 +1,45 @@
+.pages__img-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.2rem;
+  gap: 1.2rem;
+}
+
+.pages__img {
+  display: block;
+  max-width: 48rem;
+  width: auto;
+  max-height: auto;
+  height: auto;
+  border: 4px solid var(--aqua);
+  border-radius: 4px;
+}
+
+.pages__img-responsive {
+  border: none;
+  min-height: 30rem;
+  min-width: 50rem;
+}
+
+.pages__img-marseille {
+  min-width: 35em;
+  max-height: 42rem;
+  transform: translateY(2rem);
+}
+
+.pages__img-house {
+  align-self: stretch;
+}
+
+.pages__img-tennis {
+  min-height: 42rem;
+}
+
+.pages__img-node {
+  border: none;
+}
+
+.pages__img-react {
+  border: none;
+}

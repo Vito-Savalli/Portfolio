@@ -1,0 +1,121 @@
+/* TOP & BOTTOM BAR */
+
+.top-bar {
+  background-color: var(--white);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 2rem;
+  z-index: 10;
+}
+
+.bot-bar {
+  background-color: var(--white);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 2rem;
+  z-index: 10;
+}
+
+/* BTN */
+.btn:link,
+.btn:visited {
+  padding: 2rem 1rem;
+  background-color: transparent;
+  width: 25rem;
+  text-align: center;
+  font-size: 2rem;
+  border: 2px solid var(--aqua);
+  color: var(--aqua);
+  text-decoration: none;
+  border-radius: 12px;
+  font-weight: 500;
+}
+
+.btn:hover,
+.btn:active {
+  color: var(--aqua-light);
+  border: 2px solid var(--aqua-light);
+  font-weight: 500;
+  letter-spacing: 0.4px;
+}
+
+.home-btn:link,
+.home-btn:visited {
+  padding: 2rem 1rem;
+  background-color: transparent;
+  width: 25rem;
+  text-align: center;
+  font-size: 2rem;
+  border: 2px solid var(--aqua);
+  color: var(--aqua);
+  text-decoration: none;
+  border-radius: 12px;
+  font-weight: 500;
+}
+
+.home-btn:hover,
+.home-btn:active {
+  color: var(--aqua-light);
+  border: 2px solid var(--aqua-light);
+  font-weight: 500;
+  letter-spacing: none;
+}
+
+.btn-space {
+  margin-top: 1.6rem;
+}
+
+.btn-back {
+  text-decoration: none;
+  color: var(--font-primary);
+  font-size: 1.6rem;
+  font-family: sans-serif;
+}
+
+.btn-touch {
+  font-weight: 600;
+}
+
+.btn-div {
+  margin-top: 14rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn-div-skills {
+  transform: translateY(-5rem);
+  padding-bottom: 0.4rem;
+}
+
+.btn-div-about {
+  margin-bottom: 4.2rem;
+}
+
+.btn-home {
+  animation: worktogether-text 4.2s;
+}
+
+.btn-media {
+  display: none;
+}
+
+/* DOT */
+.dot {
+  color: var(--aqua);
+}
+
+.dot-big {
+  font-size: 10rem;
+}
+
+.dot-small {
+  margin-left: 0.3rem;
+}
+
+.dot-med {
+  font-size: 7rem;
+}

@@ -1,0 +1,141 @@
+@media only screen and (min-height: 930px) {
+  .menu-home {
+    top: 75rem;
+  }
+
+  .menu-aboutwork {
+    top: 89rem;
+  }
+
+  .menu-aboutme {
+    top: 104rem;
+  }
+
+  .menu-text-home {
+    top: 76rem;
+  }
+
+  .menu-text-aboutwork {
+    top: 89.6rem;
+  }
+
+  .menu-text-aboutme {
+    top: 104.7rem;
+  }
+
+  .menu-btn:link,
+  .menu-btn:visited {
+    font-size: 2.5rem;
+    top: 123rem;
+    left: 5rem;
+  }
+
+  .nav-logo {
+    font-size: 4.3rem;
+  }
+
+  .nav-logo:hover {
+    font-size: 4.5rem;
+  }
+
+  .menu__nav-item-linkedin {
+    left: 55rem;
+  }
+
+  .menu__nav-item-twitter {
+    left: 65rem;
+  }
+
+  .menu__nav-item-instagram {
+    left: 75rem;
+  }
+
+  .menu__nav-item-git {
+    left: 85rem;
+  }
+
+  .menu__nav-item-git {
+    left: 85rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .menu-line {
+    width: 5rem;
+    height: 3px;
+    top: 63rem;
+    left: 73rem;
+    transition: 1.5s;
+  }
+
+  .nav-logo {
+    font-size: 3rem;
+  }
+
+  .nav-logo:hover {
+    font-size: 3rem;
+  }
+
+  .menu__nav-item-linkedin {
+    left: 45rem;
+  }
+
+  .menu__nav-item-twitter {
+    left: 51rem;
+  }
+
+  .menu__nav-item-instagram {
+    left: 57rem;
+  }
+
+  .menu__nav-item-git {
+    left: 63rem;
+  }
+
+  .menu-text {
+    display: none;
+  }
+
+  .menu-link {
+    font-size: 3rem;
+    transform: translateX(-2rem);
+  }
+
+  .menu-home {
+    top: 71rem;
+  }
+
+  .menu-aboutwork {
+    top: 81rem;
+  }
+
+  .menu-aboutme {
+    top: 91rem;
+  }
+
+  .menu-btn:link,
+  .menu-btn:visited {
+    font-size: 2rem;
+    top: 102rem;
+    left: 3rem;
+  }
+}
+
+@media (min-height: 680px) and (max-width: 800px) {
+  .menu-home {
+    top: 74rem;
+  }
+
+  .menu-aboutwork {
+    top: 86rem;
+  }
+
+  .menu-aboutme {
+    top: 98rem;
+  }
+
+  .menu-btn:link,
+  .menu-btn:visited {
+    top: 110rem;
+  }
+}
