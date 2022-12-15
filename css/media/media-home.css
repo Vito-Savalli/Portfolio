@@ -180,6 +180,7 @@
   .main-container {
     width: 200%;
     height: auto;
+     overflow-x: hidden;
   }
 
   .nav-logo {
