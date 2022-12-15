@@ -177,8 +177,9 @@
   }
 
   .main-container {
-    width: 100vw;
+    width: 150vw;
     height: auto;
+    overflow-x: hidden;
   }
 
   .nav-logo {
