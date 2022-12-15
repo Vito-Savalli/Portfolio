@@ -177,11 +177,7 @@
         overflow-x: hidden;
   }
 
-  .main-container {
-    width: 150vw;
-    height: auto;
-    overflow-x: hidden;
-  }
+
 
   .nav-logo {
     display: none;
