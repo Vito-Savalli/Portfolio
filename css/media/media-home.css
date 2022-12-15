@@ -114,12 +114,7 @@
 
 @media (max-width: 580px) {
 
- 
-.main-container {
-  transform: translateX(10rem);
-    padding-right: 30px;
-  }
-  
+
   .nav-logo {
     display: none;
   }
