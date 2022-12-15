@@ -179,9 +179,9 @@
 
   .main-container {
     overflow-x: hidden;
-    width: 120vw;
+    width: 100vw;
     height: auto;
-    transform: translateX(200rem);
+    transform: translateX(2000rem);
   }
 
   .nav-logo {
