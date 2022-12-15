@@ -115,7 +115,7 @@
 @media (max-width: 580px) {
   
   .main-container {
-    margin-top: -10rem;
+    margin-top: 0;
     padding-top: 10rem;
     position: relative;
     width: 150%;
@@ -161,7 +161,7 @@
   }
   
   .project__title {
-    line-height: 1.6 !important;
+    line-height: 1.2 !important;
 
   .btn {
     margin: 3rem auto;
