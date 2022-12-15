@@ -113,12 +113,12 @@
 }
 
 @media (max-width: 580px) {
-  /* body {
-    background-color: rgb(48, 174, 19);
-  } */
+  body {
+    background-color: green;
+  }
 
   .main-container {
-    width: 500%;
+    width: 200%;
     height: auto;
   }
 
@@ -135,6 +135,9 @@
     transform: translate(-14rem, -10rem) scale(0.8);
   }
 
+  /* html {
+    font-size: 200%;
+  } */
 
   .hero__title {
     font-size: 6rem;
@@ -169,12 +172,12 @@
 }
 
 @media (max-width: 455px) {
-  /* body {
+  body {
     background-color: rgb(19, 174, 161);
-  } */
+  }
 
   .main-container {
-    width: 500%;
+    width: 200%;
     height: auto;
   }
 
