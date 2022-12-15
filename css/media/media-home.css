@@ -116,7 +116,7 @@
 
  
 .main-container {
-  transform: translateX(30rem);
+  transform: translate(10rem, -100rem);
   }
   
   .nav-logo {
