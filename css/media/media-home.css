@@ -135,9 +135,6 @@
     transform: translate(-14rem, -10rem) scale(0.8);
   }
 
-  html {
-    font-size: 200%;
-  }
 
   .hero__title {
     font-size: 6rem;
