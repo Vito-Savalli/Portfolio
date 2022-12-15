@@ -113,7 +113,10 @@
 }
 
 @media (max-width: 580px) {
-
+  
+  .main-container {
+    transform: translateY(-100rem);
+  }
 
   .nav-logo {
     display: none;
