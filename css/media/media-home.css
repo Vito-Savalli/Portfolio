@@ -190,10 +190,6 @@
     gap: 2rem;
   }
 
-  html {
-    font-size: 180%;
-  }
-
   .hero__text-box {
     transform: translate(4rem, -4rem);
   }
