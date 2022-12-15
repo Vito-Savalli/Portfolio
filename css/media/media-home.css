@@ -179,7 +179,6 @@
   .main-container {
     width: 100vw;
     height: auto;
-    transform: translateX(2000rem);
   }
 
   .nav-logo {
