@@ -115,7 +115,7 @@
 @media (max-width: 580px) {
   
   .main-container {
-    transform: translateY(-100rem);
+   position: relative;
   }
 
   .nav-logo {
