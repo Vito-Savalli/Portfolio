@@ -161,7 +161,7 @@
   }
   
   .project__title {
-    line-height: 6;
+    line-height: 6 !important;
 
   .btn {
     margin: 3rem auto;
