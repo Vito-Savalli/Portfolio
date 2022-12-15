@@ -171,47 +171,4 @@
   }
 }
 
-@media (max-width: 455px) {
-  body {
-    background-color: var(--background);
-        overflow-x: hidden;
-  }
 
-
-
-  .nav-logo {
-    display: none;
-  }
-
-  .hero {
-    flex-direction: column;
-    gap: 2rem;
-  }
-
-  .hero__text-box {
-    transform: translate(4rem, -4rem);
-    width: 100vh;
-  }
-
-  .hero__title {
-    font-size: 6rem;
-    line-height: 0.6;
-    margin-bottom: 30px;
-  }
-
-  .project {
-    padding-left: 2rem;
-    width: 100vw;
-  }
-
-  .project__title {
-    width: 100%;
-    line-height: 1.2;
-  }
-  .project__text-box {
-    width: 100vw;
-  }
-  .btn {
-    margin: 3rem auto;
-  }
-}
