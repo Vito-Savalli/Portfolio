@@ -115,7 +115,10 @@
 @media (max-width: 580px) {
 
  
-
+.main-container {
+  transform: translateX(30rem);
+  }
+  
   .nav-logo {
     display: none;
   }
