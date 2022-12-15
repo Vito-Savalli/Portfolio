@@ -178,9 +178,9 @@
   }
 
   .main-container {
-    width: 200%;
+    overflow-x: hidden;
+    width: 100vw;
     height: auto;
-     overflow-x: hidden;
   }
 
   .nav-logo {
@@ -220,4 +220,3 @@
     margin: 3rem auto;
   }
 }
-
