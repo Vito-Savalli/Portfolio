@@ -181,7 +181,7 @@
     overflow-x: hidden;
     width: 120vw;
     height: auto;
-    transform: translateX(20rem);
+    transform: translateX(200rem);
   }
 
   .nav-logo {
