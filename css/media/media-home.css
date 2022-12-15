@@ -116,6 +116,8 @@
   
   .main-container {
    position: relative;
+    left: 20rem;
+    padding-right: 20rem;
   }
 
   .nav-logo {
