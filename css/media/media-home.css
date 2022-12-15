@@ -115,9 +115,9 @@
 @media (max-width: 580px) {
 
   .main-container {
-    width: 150%;
+    width: 100%;
     height: auto;
-    transform: translateX(30rem);
+
   }
 
   .nav-logo {
