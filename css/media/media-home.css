@@ -115,10 +115,9 @@
 @media (max-width: 580px) {
   
   .main-container {
-    top: 0;
+ margin-top: -50rem;
    position: relative;
     width: 150%;
-    animation: all 0.1s:
   }
 
   .nav-logo {
@@ -133,10 +132,6 @@
   .hero__img-box {
     transform: translate(-14rem, -10rem) scale(0.8);
   }
-
-  /* html {
-    font-size: 200%;
-  } */
 
   .hero__title {
     font-size: 6rem;
