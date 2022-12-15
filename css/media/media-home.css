@@ -179,7 +179,7 @@
 
   .main-container {
     overflow-x: hidden;
-    width: 100vw;
+    width: 120vw;
     height: auto;
   }
 
@@ -212,12 +212,9 @@
     width: 100%;
     line-height: 1.2;
   }
-
-  .hero__text {
-    width: 200%;
-    transform: translate(-20rem, -7rem);
+  .project__text-box {
+    width: 100vw;
   }
-
   .btn {
     margin: 3rem auto;
   }
