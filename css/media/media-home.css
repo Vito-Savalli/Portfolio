@@ -1,4 +1,7 @@
 @media (max-width: 1320px) {
+  /* body {
+    background-color: red;
+  } */
   .main-container {
     left: -8rem;
     width: 120%;
@@ -26,6 +29,9 @@
 }
 
 @media (max-width: 1180px) {
+  /* body {
+    background-color: rgb(236, 153, 9);
+  } */
   .project {
     flex-direction: column;
   }
@@ -60,6 +66,10 @@
 }
 
 @media (max-width: 800px) {
+  /* body {
+    background-color: yellow;
+  } */
+
   .nav-logo {
     display: none;
   }
@@ -95,6 +105,117 @@
     width: 50rem;
 
     margin-bottom: -3.2rem;
+  }
+
+  .btn {
+    margin: 3rem auto;
+  }
+}
+
+@media (max-width: 580px) {
+  /* body {
+    background-color: rgb(48, 174, 19);
+  } */
+
+  .main-container {
+    width: 500%;
+    height: auto;
+  }
+
+  .nav-logo {
+    display: none;
+  }
+
+  .hero {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .hero__img-box {
+    transform: translate(-14rem, -10rem) scale(0.8);
+  }
+
+  html {
+    font-size: 200%;
+  }
+
+  .hero__title {
+    font-size: 6rem;
+    line-height: 0.6;
+    margin-bottom: 30px;
+  }
+
+  .hero__text {
+    width: 200%;
+    transform: translate(-20rem, -7rem);
+  }
+
+  .work-together {
+    transform: translateY(-6rem);
+    width: 70%;
+    margin-bottom: -3.2rem;
+  }
+
+  .work-together__line {
+    height: 0.2rem;
+    width: 6rem;
+    transform: translateY(-1rem);
+  }
+
+  .btn {
+    margin: 3rem auto;
+  }
+
+  .btn-home {
+    transform: translateX(-4rem);
+  }
+}
+
+@media (max-width: 455px) {
+  /* body {
+    background-color: rgb(19, 174, 161);
+  } */
+
+  .main-container {
+    width: 500%;
+    height: auto;
+  }
+
+  .nav-logo {
+    display: none;
+  }
+
+  .hero {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  html {
+    font-size: 180%;
+  }
+
+  .hero__text-box {
+    transform: translate(4rem, -4rem);
+  }
+
+  .hero__title {
+    font-size: 6rem;
+    line-height: 0.6;
+    margin-bottom: 30px;
+  }
+
+  .project {
+    padding-left: 2rem;
+  }
+
+  .project__title {
+    width: 100%;
+    line-height: 1.2;
+  }
+
+  .hero__text {
+    width: 200%;
+    transform: translate(-20rem, -7rem);
   }
 
   .btn {
