@@ -135,7 +135,7 @@
   }
 
   .hero__title {
-    font-size: 5rem;
+    font-size: 6rem;
     margin-bottom: 30px;
   }
 
@@ -156,8 +156,12 @@
     transform: translateY(-1rem);
   }
   
+  .work-together__title {
+    font-size: 3.4rem;
+  }
+  
   .project__title {
-    line-height: 0.6;
+    line-height: 6;
 
   .btn {
     margin: 3rem auto;
