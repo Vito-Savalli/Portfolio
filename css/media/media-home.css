@@ -116,7 +116,8 @@
   
   .main-container {
     margin-top: -20rem;
-    padding-top: 50rem;
+    margin-top: 0;
+    padding-top: 15rem;
     position: relative;
     width: 150%;
   }
@@ -161,7 +162,7 @@
   }
   
   .project__title {
-    line-height: 0.4 !important;
+    line-height: 0.8 !important;
 
   .btn {
     margin: 3rem auto;
