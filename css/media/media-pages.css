@@ -101,6 +101,7 @@
   .main-container {
     margin-right: 0;
     padding-top: 15rem;
+    padding-right: 10rem;
     position: relative;
     width: 200%;
   }
@@ -112,6 +113,21 @@
   .btn {
     margin: 3rem auto;
   }
+  
+  .pages-text {
+    width: 150%;
+  }
 
+  .pages-box {
+    width: 150%;
+  }
+  
+  .pages__title {
+    font-size: 6rem;
+  }
+  
+  .pages__text {
+    font-size: 3rem;
+    
 
 }
