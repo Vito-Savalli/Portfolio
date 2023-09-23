@@ -179,11 +179,11 @@
     <h2 class="heading">Certification</h2>
     <div class="certif-container">
       <div class="certif-box">
-        <img src="../assets/images/certif1.jpg" alt="Certification 1" />
+        <img src="" alt="Certification 1" />
         <p>Certification 1 Description</p>
       </div>
       <div class="certif-box">
-        <img src="../assets/images/certif2.jpg" alt="Certification 2" />
+        <img src="" alt="Certification 2" />
         <p>Certification 2 Description</p>
       </div>
       <!-- ... Repeat for all your certifications ... -->
