@@ -94,7 +94,7 @@ export default {
     // Model loading
     loadModel() {
       const loader = new GLTFLoader();
-      loader.load("/knight.glb", (gltf) => {
+      loader.load("./knight.glb", (gltf) => {
         this.model = gltf.scene;
         this.centerAndScaleModel();
         this.adjustMaterialProperties();
