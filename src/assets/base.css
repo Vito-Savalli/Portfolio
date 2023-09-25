@@ -104,11 +104,14 @@ section {
   align-items: center;
 }
 
-.home-img img,
 #threeContainer {
   width: 35vw;
   animation: floatImage 4s ease-in-out infinite;
   position: relative;
+}
+
+.home-img .img {
+  width: 35vw;
 }
 
 @keyframes floatImage {
@@ -264,7 +267,7 @@ span {
 }
 
 .portfolio {
-  background: var(--second-bg-color);
+  background: var(--bg-color);
   min-height: auto;
   padding-bottom: 10rem;
 }
@@ -317,6 +320,24 @@ span {
 .portfolio-box:hover .portfolio-layer {
   transform: translateY(0);
 }
+
+/* CUSTOM */
+.portfolio-box:after {
+  content: "Web Design";
+  position: absolute;
+  font-size: 14px;
+  color: red;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.4s;
+}
+
+.portfolio-box:hover::after {
+  opacity: 0;
+}
+
+/* CUSTOM */
 
 .portfolio-layer h4 {
   font-size: 3rem;
@@ -486,7 +507,7 @@ span {
     font-size: 5rem;
   }
 
-  .home-img img,
+  .home-img .img,
   #threeContainer {
     width: 70vw;
     margin-top: 4rem;
@@ -528,9 +549,14 @@ span {
 }
 
 @media (max-width: 365px) {
-  .home-img img,
   .about-img img,
   #threeContainer {
+    width: 90vw;
+  }
+}
+
+@media (max-width: 365px) {
+  .home-img .img {
     width: 90vw;
   }
 }
@@ -561,5 +587,19 @@ span {
   to {
     opacity: 0.85;
     transform: translateX(0px);
+  }
+}
+
+.home-img {
+  height: 700px;
+}
+
+.home-content {
+  max-width: 600px;
+}
+
+@media (max-width: 920px) {
+  .home-img {
+    display: none;
   }
 }

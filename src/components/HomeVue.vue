@@ -7,16 +7,17 @@
         >Home</a
       >
       <a href="#about" @click.prevent="smoothScroll('about')">About</a>
-      <a href="#services" @click.prevent="smoothScroll('services')"
-        >Services
-      </a>
       <a href="#portfolio" @click.prevent="smoothScroll('portfolio')"
         >Projects</a
       >
+      <a href="#services" @click.prevent="smoothScroll('services')"
+        >Services
+      </a>
       <a href="#certif" @click.prevent="smoothScroll('certif')"
         >Certification</a
       >
       <a href="#contact" @click.prevent="smoothScroll('contact')">Contact</a>
+      <ColorControl @colorChanged="handleColorChange" />
     </nav>
   </header>
 
@@ -40,7 +41,8 @@
       <a href="#" class="btn">Download CV</a>
     </div>
     <div class="home-img">
-      <ThreeDModelTest />
+      <div class="img"></div>
+      <ThreeDModelTest ref="threeDModelTestRef" />
     </div>
   </section>
 
@@ -62,43 +64,8 @@
     </div>
   </section>
 
-  <section class="services" ref="services">
-    <h2 class="heading">My <span>Expertise</span></h2>
-    <div class="services-container">
-      <!-- ... your service boxes ... -->
-      <div class="services-box">
-        <i class="bx bx-code-alt"></i>
-        <h3>Web Development</h3>
-        <p>Lorem ipsum JS VUE live SPA,</p>
-        <a href="#" class="btn">Read More</a>
-      </div>
-
-      <div class="services-box">
-        <i class="bx bxs-paint"></i>
-        <h3>UX Design</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi
-          dignissimos vitae magni aut commodi non laborum nisi alias iusto
-          voluptatibus.
-        </p>
-        <a href="#" class="btn">Read More</a>
-      </div>
-
-      <div class="services-box">
-        <i class="bx bx-bar-chart-alt"></i>
-        <h3>Prompt Engineering | Processes Automation</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi
-          dignissimos vitae magni aut commodi non laborum nisi alias iusto
-          voluptatibus.
-        </p>
-        <a href="#" class="btn">Read More</a>
-      </div>
-    </div>
-  </section>
-
   <section class="portfolio" ref="portfolio">
-    <h2 class="heading">Selected <span>Projects</span></h2>
+    <h2 class="heading">My <span>Expertise</span></h2>
     <div class="portfolio-container">
       <!-- ... your portfolio boxes ... -->
       <div class="portfolio-box">
@@ -136,47 +103,77 @@
           <a href="#"><i class="bx bx-link-external"></i></a>
         </div>
       </div>
+    </div>
+  </section>
 
-      <div class="portfolio-box">
-        <img src="../assets/images/portfolio4.jpg" alt="" />
-        <div class="portfolio-layer">
-          <h4>Web Design</h4>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores,
-            ratione.
-          </p>
-          <a href="#"><i class="bx bx-link-external"></i></a>
-        </div>
+  <section class="services" ref="services">
+    <h2 class="heading">Selected<span> Projects</span></h2>
+    <div class="services-container">
+      <!-- ... your service boxes ... -->
+      <div class="services-box">
+        <i class="bx bx-code-alt"></i>
+        <h3>Web Development</h3>
+        <p>Lorem ipsum JS VUE live SPA,</p>
+        <a href="#" class="btn">Read More</a>
       </div>
 
-      <div class="portfolio-box">
-        <img src="../assets/images/portfolio5.jpg" alt="" />
-        <div class="portfolio-layer">
-          <h4>Web Design</h4>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores,
-            ratione.
-          </p>
-          <a href="#"><i class="bx bx-link-external"></i></a>
-        </div>
+      <div class="services-box">
+        <i class="bx bxs-paint"></i>
+        <h3>UX Design</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi
+          dignissimos vitae magni aut commodi non laborum nisi alias iusto
+          voluptatibus.
+        </p>
+        <a href="#" class="btn">Read More</a>
       </div>
 
-      <div class="portfolio-box">
-        <img src="../assets/images/portfolio6.jpg" alt="" />
-        <div class="portfolio-layer">
-          <h4>Web Design</h4>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores,
-            ratione.
-          </p>
-          <a href="#"><i class="bx bx-link-external"></i></a>
-        </div>
+      <div class="services-box">
+        <i class="bx bx-bar-chart-alt"></i>
+        <h3>Prompt Engineering | Processes Automation</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi
+          dignissimos vitae magni aut commodi non laborum nisi alias iusto
+          voluptatibus.
+        </p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+      <div class="services-box">
+        <i class="bx bx-code-alt"></i>
+        <h3>Web Development</h3>
+        <p>Lorem ipsum JS VUE live SPA,</p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+
+      <div class="services-box">
+        <i class="bx bxs-paint"></i>
+        <h3>UX Design</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi
+          dignissimos vitae magni aut commodi non laborum nisi alias iusto
+          voluptatibus.
+        </p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+
+      <div class="services-box">
+        <i class="bx bx-bar-chart-alt"></i>
+        <h3>Prompt Engineering | Processes Automation</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi
+          dignissimos vitae magni aut commodi non laborum nisi alias iusto
+          voluptatibus.
+        </p>
+        <a href="#" class="btn">Read More</a>
       </div>
     </div>
   </section>
 
   <section class="certif" ref="certif">
-    <h2 class="heading">Certification</h2>
+    <h2 class="heading">My <span> Certifications</span></h2>
+    <a href="#" style="transform: translateX(460px)" class="btn"
+      >Download Certificates</a
+    >
     <div class="certif-container">
       <div class="certif-box">
         <img src="" alt="Certification 1" />
@@ -227,10 +224,11 @@
 import ScrollReveal from "scrollreveal";
 import Typed from "typed.js";
 import ThreeDModelTest from "@/components/ThreeDModelTest.vue";
+import ColorControl from "@/components/ColorControl.vue";
 
 export default {
   name: "Portfolio",
-  components: { ThreeDModelTest },
+  components: { ThreeDModelTest, ColorControl },
   data() {
     return {
       menuIcon: null,
@@ -324,17 +322,17 @@ export default {
     setupTypedJS() {
       const typed = new Typed(this.$refs.multipleText, {
         strings: [
-          "Frontend Developer.",
+          "JavaScript Developer.",
           "",
-          "Digital Marketing Expert.",
+          "UX Designer.",
           "",
           "Vue Developer.",
           "",
-          "Web3 Enthusiast.",
+          "Midjourney Artist.",
           "",
-          "Javascript Developer.",
+          "Creative Developer.",
           "",
-          "Fun Chess Player!",
+          "Chess Player.",
         ],
         typeSpeed: 45,
         backSpeed: 75,
@@ -342,6 +340,9 @@ export default {
         startDelay: 1600,
         loop: true,
       });
+    },
+    handleColorChange(newColor) {
+      this.$refs.threeDModelTestRef.updateLightColor(newColor);
     },
   },
 };
