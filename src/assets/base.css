@@ -12,6 +12,7 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 .no-scroll {
@@ -1271,4 +1272,10 @@ svg path {
 
 .footer * {
   font-weight: 500;
+}
+
+@media (max-width: 900px) {
+  .home-img {
+    display: none;
+  }
 }
