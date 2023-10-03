@@ -125,7 +125,6 @@ section {
 
 #threeContainer {
   width: 35vw;
-  /*animation: floatImage 6s ease-in-out infinite;*/
   position: relative;
 }
 
@@ -588,6 +587,7 @@ span {
   .about-img img,
   #threeContainer {
     width: 90vw;
+    border: 8px solid red;
   }
 }
 
@@ -684,14 +684,16 @@ span {
   justify-content: center;
   background: var(--main-color);
   height: 180px;
-  width: 100%;
-  padding: 0 20px;
+  width: 100vw;
+  padding: 0 44px;
 }
 
 .footerCta {
   font-size: 70px;
   width: 60%;
   font-weight: 800;
+  color: var(--bg-color) !important;
+  text-decoration: none;
 }
 
 .footerContact {
@@ -702,9 +704,10 @@ span {
 
 .footerContact a {
   text-decoration: none;
-  color: white;
+  color: rgb(172, 37, 37);
   font-size: 260%;
   font-weight: 500;
+  color: var(--bg-color);
 }
 
 .footerCopy {
@@ -1240,4 +1243,32 @@ svg path {
   to {
     transform: translateY(200px);
   }
+}
+
+.footerCta a {
+  color: var(--bg-color) !important;
+}
+
+.footerCopy {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  .footerCta {
+    font-size: 7vw;
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer {
+    height: 100px;
+  }
+
+  .footerContact {
+    display: none;
+  }
+}
+
+.footer * {
+  font-weight: 500;
 }

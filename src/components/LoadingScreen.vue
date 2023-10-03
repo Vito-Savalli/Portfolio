@@ -30,7 +30,7 @@ export default {
   mounted() {
     setTimeout(() => {
       this.animateAway();
-    }, 3200); // 2 seconds delay
+    }, 3200);
   },
   methods: {
     animateAway() {
@@ -42,7 +42,7 @@ export default {
 
       setTimeout(() => {
         this.showLoadingScreen = false;
-      }, 1000); // This should match the transition duration in the CSS
+      }, 1000);
     },
   },
 };
@@ -55,7 +55,7 @@ export default {
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 9999; /* Ensure it's above all other content */
+  z-index: 9999;
   background: transparent;
   overflow: hidden;
 }
@@ -67,9 +67,7 @@ export default {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 9;
-  /* Add more styles for your loading animation here */
 }
-
 .screen-part {
   position: absolute;
   width: 100%;
@@ -136,6 +134,12 @@ export default {
   }
   to {
     opacity: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .ajaxHelper {
+    transform: translateX(-10%) translateY(124px);
   }
 }
 

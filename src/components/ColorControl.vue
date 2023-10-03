@@ -64,17 +64,15 @@ export default {
   z-index: 999;
 }
 
-/* Style the track for Chrome */
 .chrome-browser .colorPicker::-webkit-slider-runnable-track {
   width: 100%;
   height: 8px;
   cursor: pointer;
-  background: #2f3031; /* Ensure the track is transparent */
+  background: #2f3031;
   border-radius: 13px;
   border: 0.1px solid #000000;
 }
 
-/* Adjust the thumb for Chrome */
 .chrome-browser .colorPicker::-webkit-slider-thumb {
   -webkit-appearance: none;
   background-color: white !important;
@@ -87,7 +85,7 @@ export default {
   margin-top: -6px;
   transform: translateX(4px);
   outline: none;
-  filter: brightness(1000%) saturate(0%); /* This will make it appear white */
+  filter: brightness(1000%) saturate(0%);
 }
 
 @-moz-document url-prefix() {

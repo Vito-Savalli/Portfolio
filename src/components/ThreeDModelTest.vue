@@ -50,7 +50,7 @@ export default {
         0.1,
         1000
       );
-      this.camera.position.set(0, 3, 10); // Adjusted the y value to 2
+      this.camera.position.set(0, 3, 10);
       this.camera.lookAt(0, 0, 0);
     },
 
@@ -69,16 +69,16 @@ export default {
       const ambientLight = new THREE.AmbientLight(0x00cc00, 0.1);
 
       const directionalLight = new THREE.DirectionalLight(0xffffff, 0.5);
-      directionalLight.position.set(-5, 1, 1); // Moved to the left
+      directionalLight.position.set(-5, 1, 1);
 
       this.neonLight = new THREE.PointLight(0x009100, 90, 10);
       this.neonLight.position.set(-6, 1, 2);
 
       const hemiLight = new THREE.HemisphereLight(0xffffff, 0x444444, 0.6);
-      hemiLight.position.set(-5, -20, 0); // Moved to the left
+      hemiLight.position.set(-5, -20, 0);
 
       const pointLight = new THREE.PointLight(0xffffff, 1, 100);
-      pointLight.position.set(-4, -5, 5); // Moved to the left
+      pointLight.position.set(-4, -5, 5);
 
       this.scene.add(
         ambientLight,
@@ -227,7 +227,7 @@ export default {
   right: -168px;
   width: 780px;
   height: 900px;
-  background-color: #f0f0f000; /* Transparent background */
+  background-color: #f0f0f000;
   cursor: grab;
 }
 

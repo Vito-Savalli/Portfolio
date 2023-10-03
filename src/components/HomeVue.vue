@@ -13,10 +13,6 @@
       <a href="#portfolio" @click.prevent="smoothScroll('portfolio')"
         >Projects</a
       >
-      <!-- 
-      <a href="#certif" @click.prevent="smoothScroll('certif')"
-        >Certifications</a 
-      > -->
       <a href="#contact" @click.prevent="smoothScroll('contact')">Contact</a>
       <ColorControl @colorChanged="handleColorChange" />
     </nav>
@@ -124,7 +120,6 @@
   <section class="portfolio" ref="services">
     <h2 class="heading">My <span>Expertise</span></h2>
     <div class="portfolio-container">
-      <!-- ... your portfolio boxes ... -->
       <div class="portfolio-box portfolio-box-web">
         <img src="../assets/images/expertise-js.png" alt="" />
         <div class="portfolio-layer">
@@ -338,7 +333,7 @@
 
   <footer class="footer">
     <div class="footerCta">
-      <p>Let's Speak Today!</p>
+      <a href="tel:+33660696138">Let's Speak Today!</a>
     </div>
     <div class="footerContact">
       <div>
@@ -390,7 +385,7 @@ export default {
 
     this.setupEventListeners();
     this.setupScrollReveal();
-    setTimeout(this.setupTypedJS, 3050); // Delay Typed.js setup by 3 seconds
+    setTimeout(this.setupTypedJS, 3050); // Delay Typed.js setup by 3,05 seconds
   },
   methods: {
     handleSubmit() {
