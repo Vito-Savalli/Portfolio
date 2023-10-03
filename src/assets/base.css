@@ -77,7 +77,7 @@ section {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   padding: 2rem 9%;
   background: var(--bg-color);
   display: flex;
