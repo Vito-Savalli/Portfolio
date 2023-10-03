@@ -104,6 +104,7 @@ export default {
   top: -16px;
   right: 39.6px;
   cursor: grab;
+  transition: 0.3s ease;
 }
 
 .dotHelper {

@@ -66,13 +66,13 @@ export default {
 
     // Lighting setup
     setupLights() {
-      const ambientLight = new THREE.AmbientLight(0x00cc00, 0.2);
+      const ambientLight = new THREE.AmbientLight(0x00cc00, 0.1);
 
-      const directionalLight = new THREE.DirectionalLight(0xffffff, 1);
+      const directionalLight = new THREE.DirectionalLight(0xffffff, 0.5);
       directionalLight.position.set(-5, 1, 1); // Moved to the left
 
-      this.neonLight = new THREE.PointLight(0x009100, 70, 10);
-      this.neonLight.position.set(-6, 1, 3);
+      this.neonLight = new THREE.PointLight(0x009100, 90, 10);
+      this.neonLight.position.set(-6, 1, 2);
 
       const hemiLight = new THREE.HemisphereLight(0xffffff, 0x444444, 0.6);
       hemiLight.position.set(-5, -20, 0); // Moved to the left
