@@ -88,7 +88,7 @@
         ></a>
       </div>
       <a
-        href="/public/Vito-Savalli-CV-JavaScript.pdf"
+        href="/Portfolio/Vito-Savalli-CV-JavaScript.pdf"
         target="_blank"
         class="btn"
         >Consult resume</a
