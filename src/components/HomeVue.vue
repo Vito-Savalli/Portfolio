@@ -126,7 +126,7 @@
     <h2 class="heading">My <span>Expertise</span></h2>
     <div class="portfolio-container">
       <div class="portfolio-box portfolio-box-web">
-        <img src="../assets/images/expertise-js.png" alt="" />
+        <img src="../assets/images/expertise-js.webp" alt="" />
         <div class="portfolio-layer">
           <h4>
             JavaScript <br />
@@ -139,7 +139,7 @@
         </div>
       </div>
       <div class="portfolio-box portfolio-box-ux">
-        <img src="../assets/images/expertise-ux.png" alt="" />
+        <img src="../assets/images/expertise-ux.webp" alt="" />
         <div class="portfolio-layer">
           <h4>
             UX <br />
@@ -152,7 +152,7 @@
         </div>
       </div>
       <div class="portfolio-box portfolio-box-lead">
-        <img src="../assets/images/expertise-com.png" alt="" />
+        <img src="../assets/images/expertise-com.webp" alt="" />
         <div class="portfolio-layer">
           <h4>
             Integrative <br />
@@ -177,7 +177,7 @@
         @mouseleave="pauseVideoNc"
       >
         <div class="services-img">
-          <img class="ncImg" src="../assets/images/network.png" alt="" />
+          <img class="ncImg" src="../assets/images/network.webp" alt="" />
           <video
             class="ncVideo"
             src="../assets/images/nc.webm"
@@ -208,7 +208,7 @@
         @mouseout="pauseVideoJ"
       >
         <div class="services-img">
-          <img src="../assets/images/juris.png" class="jurisImg" alt="" />
+          <img src="../assets/images/juris.webp" class="jurisImg" alt="" />
           <video
             class="jurisVideo"
             src="../assets/images/juris.webm"
@@ -231,7 +231,7 @@
 
       <div class="services-box">
         <div class="services-img posToFix">
-          <img src="../assets/images/raph.png" alt="" />
+          <img src="../assets/images/raph.webp" alt="" />
           <img class="raphGif" src="../assets/images/raph.gif" alt="" />
         </div>
         <h3>Raphaelle Studio</h3>
@@ -253,7 +253,7 @@
         @mouseleave="pauseVideo"
       >
         <div class="services-img">
-          <img class="inkbImg" src="../assets/images/ink.png" alt="" />
+          <img class="inkbImg" src="../assets/images/ink.webp" alt="" />
           <video
             class="inkbVideo"
             src="../assets/images/inkb.webm"

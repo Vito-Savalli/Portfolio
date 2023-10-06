@@ -357,7 +357,8 @@ span {
 }
 
 .portfolio-box-ux:after {
-  content: "UX Engineering";
+  content: "UX \A Engineering";
+  white-space: pre; /* or pre-wrap */
   position: absolute;
   font-size: 30px;
   color: white;
@@ -1294,5 +1295,11 @@ svg path {
 @media (max-width: 900px) {
   .home-img {
     display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .about {
+    padding-top: 0 !important;
   }
 }
