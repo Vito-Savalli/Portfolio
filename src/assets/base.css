@@ -553,9 +553,8 @@ span {
     flex-direction: column-reverse;
   }
 
-  .about img {
-    width: 70vw;
-    margin-top: 4rem;
+  .about-img {
+    transform: scale(0.85);
   }
 }
 
