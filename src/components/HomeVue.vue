@@ -87,7 +87,10 @@
             ></path></svg
         ></a>
       </div>
-      <a href="/Vito-Savalli-CV-JavaScript.pdf" target="_blank" class="btn"
+      <a
+        href="/public/Vito-Savalli-CV-JavaScript.pdf"
+        target="_blank"
+        class="btn"
         >Consult resume</a
       >
     </div>
