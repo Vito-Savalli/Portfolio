@@ -87,10 +87,7 @@
             ></path></svg
         ></a>
       </div>
-      <a
-        href="/public/Vito-Savalli-CV-JavaScript.pdf"
-        target="_blank"
-        class="btn"
+      <a href="/Vito-Savalli-CV-JavaScript.pdf" target="_blank" class="btn"
         >Consult resume</a
       >
     </div>
@@ -208,6 +205,7 @@
         @mouseout="pauseVideoJ"
       >
         <div class="services-img">
+          <img src="../assets/images/juris.png" class="jurisImg" alt="" />
           <video
             class="jurisVideo"
             src="../assets/images/juris.webm"

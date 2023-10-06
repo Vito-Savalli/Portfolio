@@ -785,12 +785,14 @@ svg path {
   display: none;
 }
 
-.inkbCont:hover .inkbVideo {
-  display: block;
-}
+@media (min-width: 1000px) {
+  .inkbCont:hover .inkbVideo {
+    display: block;
+  }
 
-.inkbCont:hover .inkbImg {
-  display: none;
+  .inkbCont:hover .inkbImg {
+    display: none;
+  }
 }
 
 .ncVideo {
@@ -801,12 +803,14 @@ svg path {
   display: none;
 }
 
-.ncCont:hover .ncVideo {
-  display: block;
-}
+@media (min-width: 1000px) {
+  .ncCont:hover .ncVideo {
+    display: block;
+  }
 
-.ncCont:hover .ncImg {
-  display: none;
+  .ncCont:hover .ncImg {
+    display: none;
+  }
 }
 
 .jurisVideo {
@@ -814,6 +818,20 @@ svg path {
   width: 100%;
   height: 100%;
   border-radius: 2rem;
+}
+
+.jurisImg {
+  display: none;
+}
+
+@media (max-width: 1000px) {
+  .jurisImg {
+    display: block;
+  }
+
+  .jurisVideo {
+    display: none;
+  }
 }
 
 .hexaShape {
