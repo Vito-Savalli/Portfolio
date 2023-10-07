@@ -1,29 +1,12 @@
-# folio
+# Vito Savalli Portfolio
 
-This template should help get you started developing with Vue 3 in Vite.
+Welcome to my Portfolio. <br /> This project is built using HTML, CSS, JS, Vue3, Vite.js and Three.js <br />
+[Visit Portfolio &#8594;](https://vito-savalli.github.io/Portfolio/)
 
-## Recommended IDE Setup
+## Let's Connect !
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Say hi ! I'm always excited to connect with new people !
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+[My Linkedin &#8594;](https://www.linkedin.com/in/vito-savalli/)  
+&#9993; : vitosavalli.dev@gmail.com  
+&#128222; : +33660696138

@@ -180,7 +180,7 @@
           <img class="ncImg" src="../assets/images/network.webp" alt="" />
           <video
             class="ncVideo"
-            src="../assets/images/nc.webm"
+            src="../assets/video/nc.webm"
             autoplay
             muted
             loop
@@ -211,7 +211,7 @@
           <img src="../assets/images/juris.webp" class="jurisImg" alt="" />
           <video
             class="jurisVideo"
-            src="../assets/images/juris.webm"
+            src="../assets/video/juris.webm"
             autoplay
             muted
             loop
@@ -256,7 +256,7 @@
           <img class="inkbImg" src="../assets/images/ink.webp" alt="" />
           <video
             class="inkbVideo"
-            src="../assets/images/inkb.webm"
+            src="../assets/video/inkb.webm"
             autoplay
             muted
             loop
