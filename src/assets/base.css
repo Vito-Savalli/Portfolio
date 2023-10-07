@@ -269,9 +269,25 @@ span {
   height: 430px;
 }
 
+@media (min-width: 1600px) {
+  .services-container {
+    grid-gap: 34px;
+  }
+}
+
+.services-box {
+  max-width: 600px !important;
+}
+
 .services-container .services-box:hover {
   border-color: var(--main-color);
   transform: scale(1.02);
+}
+
+@media (max-width: 600px) {
+  .services-box {
+    max-height: 400px !important;
+  }
 }
 
 .services-box i {
